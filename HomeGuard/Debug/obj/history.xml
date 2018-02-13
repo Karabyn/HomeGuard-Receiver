@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F072RB -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year\IoT\HomeGuard-Receiver\cmsis_lib\include -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year\IoT\HomeGuard-Receiver -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year\IoT\HomeGuard-Receiver\cmsis_lib -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year\IoT\HomeGuard-Receiver\Debug -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year\IoT\HomeGuard-Receiver\cmsis_boot -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year\IoT\HomeGuard-Receiver\cmsis_core -I..\..\..\..\..\Users\petro\Documents\Education\UCU\3rd year\IoT">
+      <target file="syscalls.o" lastModified="16190404215">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1618af3a421"/>
+      </target>
+      <target file="stm32f0xx_it.o" lastModified="161904056b6">
+         <source file="..\..\..\stm32f0xx_it.c" lastModified="139a3ecb5f7"/>
+      </target>
+      <target file="stm32f0xx_spi.o" lastModified="161904038fa">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_spi.c" lastModified="1618af4cbc9"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="16190403d66">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_gpio.c" lastModified="1618af3cad0"/>
+      </target>
+      <target file="Debug.o" lastModified="161904029e8">
+         <source file="..\..\..\Debug\Debug.c" lastModified="1617fb9a8f7"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="16190402481">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rcc.c" lastModified="1618af3bd72"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="16190404752">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_usart.c" lastModified="1618af40889"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="16190405f81">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_misc.c" lastModified="1618af4bd5c"/>
+      </target>
+      <target file="main.o" lastModified="1619042d16d">
+         <source file="..\..\..\main.c" lastModified="1619042c274"/>
+      </target>
+      <target file="NRF24L01.o" lastModified="1619042ccb3">
+         <source file="..\..\..\NRF24L01.c" lastModified="1618fd9479e"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="16190404d09">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_tim.c" lastModified="1618b10212f"/>
+      </target>
+      <target file="system_stm32f0xx.o" lastModified="161904051e5">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="15f3678d455"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="16190403436">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1618af3b0d2"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="16190405b21">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_exti.c" lastModified="1618af3ee5e"/>
+      </target>
+   </processor>
+</history>

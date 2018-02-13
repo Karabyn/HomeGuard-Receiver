@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=HomeGuard.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\HomeGuard -TC:\CooCox\CoIDE\configuration\ProgramData\HomeGuard/arm-gcc-link.ld -g">
+      <target file="HomeGuard.elf" lastModified="1619042d56e">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="16190402481"/>
+         <source file="..\obj\Debug.o" lastModified="161904029e8"/>
+         <source file="..\obj\NRF24L01.o" lastModified="1619042ccb3"/>
+         <source file="..\obj\main.o" lastModified="1619042d16d"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="16190403436"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="161904038fa"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="16190403d66"/>
+         <source file="..\obj\syscalls.o" lastModified="16190404215"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="16190404752"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="16190404d09"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="161904051e5"/>
+         <source file="..\obj\stm32f0xx_it.o" lastModified="161904056b6"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="16190405b21"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="16190405f81"/>
+      </target>
+   </processor>
+</history>
